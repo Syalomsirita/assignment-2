@@ -187,4 +187,25 @@ footer {
  padding: 15px;
  background: #b2ebf2;
  color: #008080;
+
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    nav {
+        margin-top: 15px;
+    }
+
+    #hero h2 {
+        font-size: 32px;
+    }
+
+    #hero {
+        padding: 40px 5%;
+        text-align: center;
+    }
 }
