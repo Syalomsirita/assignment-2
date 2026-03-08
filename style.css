@@ -189,46 +189,6 @@ footer {
  color: #008080;
 }
 
-@media (max-width: 768px) {
- header {
- flex-direction: column;
- text-align: center;
- }
-
-    nav {
-        gap: 10px;
-    }
-
-    #hero {
-        flex-direction: column;
-        padding: 40px 5%;
-        text-align: center;
-    }
-
-    #hero h2 {
-        font-size: 28px;
-    }
-
-    .hero-image {
-        width: 100%;
-        text-align: center;
-    }
-
-    .hero-image img {
-        width: 90%;
-        max-width: 400px;
-    }
-
-    #coralconservation {
-        padding: 40px 5%;
-    }
-
-    .card {
-        width: 100%; 
-        max-width: 320px;
-    }
-}
-
 @media (max-width: 480px) {
     header {
         padding: 10px 12px;
@@ -296,11 +256,4 @@ footer {
         padding: 12px;
         font-size: 14px;
     }
-}
-
-@media (max-width: 360px) {
-    .logo-img { height: 40px; width: 40px; }
-    h1 { font-size: 16px; }
-    #hero h2 { font-size: 20px; }
-    nav a { font-size: 13px; }
 }
